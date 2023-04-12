@@ -1,0 +1,36 @@
+@media (max-width: 767px) {
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    
+    .top {
+        height: 735px;
+        background-image: url(img/hp/topM.jpg);
+
+        &__title {
+            font-size: 32px;
+            line-height: 39px;
+            display: flex;
+            text-align: center;
+        }
+        &__text {
+            font-size: 14px;
+            line-height: 22px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+        }
+        &__btn {
+
+        }
+    }
+
+    .box {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    
+
+}
