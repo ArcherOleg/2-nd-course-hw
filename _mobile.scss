@@ -6,7 +6,7 @@
     
     .top {
         height: 735px;
-        background-image: url(img/hp/topM.jpg);
+        background-image: url(../img/hp/topM.jpg);
 
         &__title {
             font-size: 32px;
@@ -20,9 +20,6 @@
             display: flex;
             align-items: center;
             text-align: center;
-        }
-        &__btn {
-
         }
     }
 
