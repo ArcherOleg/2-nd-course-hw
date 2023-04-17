@@ -1,37 +1,48 @@
-// //Задание 1
+//Задание 1
 
-// console.log (`Привет`);
-// console.log (`Привет`);
+console.log (`Привет`);
+console.log (`Привет`);
 
-// //Задание 2
+//Задание 2
 
-// for (let i = 1; i <= 5; i++) {
-//     console.log(i);
-//   }
+for (let i = 1; i <= 5; i++) {
+    console.log(i);
+  }
 
-// //Задание 3
+//Задание 3
 
-// for (let i = 7; i <= 22; i++) {
-//     console.log(i);
-// }
+for (let i = 7; i <= 22; i++) {
+    console.log(i);
+}
 
-// //Задание 4
+//Задание 4
 
-// let obj = {
-//     "Коля": 200,
-//     "Вася": 300,
-//     "Петя": 400
-//   }
+let obj = {
+    "Коля": 200,
+    "Вася": 300,
+    "Петя": 400
+  }
   
-//   for (let key in obj) {
-//     console.log(`${key} - зарплата ${obj[key]} долларов`);
-//   }
+  for (let key in obj) {
+    console.log(`${key} - зарплата ${obj[key]} долларов`);
+  }
 
   //Задание 5
 
-  let num = 0;
-  
-  for(let n = 1000; n >= 50; n = n / 2)  {
-    console.log(n);
-    
+let n = 1000;
+let num = 0;
+
+while (n >= 50) {
+  n = n / 2;
+  num++;
+}
+console.log(n);
+console.log(num);
+
+//Задание 6
+
+let friday = 6;
+
+for(let friday = 6; friday <=31; friday = friday + 7) {
+  console.log(`Сегодня пятница, ${friday} - е число. Необходимо подготовить отчет`);
 }
