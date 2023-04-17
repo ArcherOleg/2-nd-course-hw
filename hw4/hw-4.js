@@ -1,7 +1,8 @@
 //Задание 1
 
-console.log (`Привет`);
-console.log (`Привет`);
+for (let a = 0; a < 2; a++) {
+  console.log("привет");
+  }
 
 //Задание 2
 
