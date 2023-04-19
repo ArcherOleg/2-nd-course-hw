@@ -9,7 +9,7 @@ a {
 }
 
 body {
-  font-family: "Montserrat", sans-serif; 
+  font-family: "Montserrat", sans-serif;
   color: #FFFFFF;
 }
 
@@ -58,6 +58,7 @@ body {
   align-items: center;
   font-family: "Montserrat", sans-serif;
   transition: all 0.3s;
+  color: #FFFFFF;
 }
 
 .button:hover {
@@ -78,19 +79,17 @@ body {
   display: flex;
   align-items: flex-end;
   padding: 32px;
-  border-radius: 16px;
+  border-radius: 22px;
   width: 379px;
   height: 300px;
   font-weight: 600;
   font-size: 24px;
   line-height: 32px;
   color: #FFFFFF;
-  transition: all 0.5s;
 }
 
 .box__game:hover {
-  border: 4px solid #7136fa;
-  border-radius: 20px;
+  border: 4px solid #44D2FF;
 }
 
 .box__game1 {
@@ -112,51 +111,86 @@ body {
   background: #000915;
 }
 
-.games__block {
+.seasons {
+  padding-top: 233px;
+  padding-bottom: 233px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  padding: 233px 0;
-  -moz-column-gap: 135px;
-       column-gap: 135px;
 }
-
-.games__content {
+.seasons__content {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
   gap: 32px;
 }
-
-.games__title {
+.seasons__title {
+  font-weight: 700;
   font-size: 48px;
   line-height: 59px;
+  color: #FFFFFF;
 }
-
-.games__text {
+.seasons__text {
+  width: 584px;
   font-weight: 300;
   font-size: 18px;
   line-height: 32px;
+  color: #FFFFFF;
 }
 
-.games__text_center {
-  text-align: center;
-  padding: 0 118px;
-}
-
-.games__riddle {
-  background-image: url(../img/hp/bgGame3.jpg);
-  background-size: cover;
-  background-position: center;
-  padding: 276px 0;
+.remember {
+  padding-top: 233px;
+  padding-bottom: 233px;
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.remember__content {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.remember__title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  color: #FFFFFF;
+}
+.remember__text {
+  width: 584px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  color: #FFFFFF;
 }
 
-.games__riddle_center {
+.riddle {
+  width: 1440px;
+  height: 800px;
+  background-image: url(../img/hp/bgGame3.jpg);
+  padding-top: 276px;
+  padding-bottom: 288px;
+}
+.riddle__content {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+  flex-direction: column;
+  color: #FFFFFF;
+}
+.riddle__title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+}
+.riddle__text {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
   display: flex;
   align-items: center;
+  text-align: center;
 }
 
 .footer {
@@ -166,6 +200,11 @@ body {
   height: 80px;
   align-items: center;
   justify-content: center;
+}
+.footer__text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
 }
 
 @media (max-width: 1279px) {
@@ -177,7 +216,6 @@ body {
     background-position: center;
   }
 }
-
 @media (max-width: 767px) {
   .center {
     padding-left: 16px;

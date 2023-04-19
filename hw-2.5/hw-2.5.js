@@ -89,35 +89,53 @@
 
 // alert(cubeNumber());
 
-//Задание 7
+// //Задание 7
 
-const circle1 = {
-  radius: 5,
-  getArea: function() {
-    return Math.PI * this.radius ** 2;
-  },
-  getPerimetr: function() {
-    return 2 * Math.PI * this.radius;
+// const circle1 = {
+//   radius: 5,
+//   getArea: function() {
+//     return Math.PI * this.radius ** 2;
+//   },
+//   getPerimetr: function() {
+//     return 2 * Math.PI * this.radius;
+//   }
+// }
+
+// const circle2 = {
+//   radius: 10,
+//   getArea: function() {
+//     return Math.PI * this.radius ** 2;
+//   },
+//   getPerimetr: function() {
+//     return 2 * Math.PI * this.radius;
+//   }
+// }
+
+// console.log(circle1.getArea()); //78.53981633974483
+// console.log(circle1.getPerimetr());//31.41592653589793
+// console.log(circle2.getArea());//314.1592653589793
+// console.log(circle2.getPerimetr());//62.83185307179586
+
+//Задание 8
+
+let a = prompt('Введите число');
+
+function findSeason(a) {
+  if (isNaN(a) || a <= 0 || a >= 13) {
+    do { alert ('Такого месяца не существует, попробуйте ещё раз');
+  } while (isNaN(a) || a <= 0 || a >= 13);
+  }
+
+  if (a === 1 || a === 2 || a ===12) {
+    return `Зима`;
+  } else if (a >= 3 || a <= 5) {
+    return `Весна`;
+  } else if (a >= 6 || a <= 8) {
+    return `Лето`;
+  } else {
+    return `Осень`;
   }
 }
-
-const circle2 = {
-  radius: 10,
-  getArea: function() {
-    return Math.PI * this.radius ** 2;
-  },
-  getPerimetr: function() {
-    return 2 * Math.PI * this.radius;
-  }
-}
-//для circle1
-console.log(circle1.getArea()); //78.53981633974483
-console.log(circle1.getPerimetr());//31.41592653589793
-//для circle2
-console.log(circle2.getArea());//314.1592653589793
-console.log(circle2.getPerimetr());//62.83185307179586
-
-
 
 
 
