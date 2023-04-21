@@ -241,6 +241,15 @@ body {
     width: 344px;
     height: 236px;
   }
+  .seasons {
+    padding-top: 51px;
+    padding-bottom: 85px;
+  }
+  .seasons__content {
+    display: flex;
+    align-items: center;
+    padding-bottom: 64px;
+  }
   .seasons__title {
     font-size: 32px;
     line-height: 39px;
@@ -251,17 +260,33 @@ body {
     font-size: 14px;
     line-height: 22px;
   }
+  .remember {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-top: 51px;
+    padding-bottom: 90px;
+  }
+  .remember__content {
+    display: flex;
+    align-items: center;
+    padding-bottom: 64px;
+  }
   .remember__title {
     font-size: 32px;
     line-height: 39px;
   }
   .remember__text {
+    width: 343px;
+    text-align: center;
     font-size: 14px;
     line-height: 22px;
   }
   .riddle {
-    background-size: 800px 735px;
+    background-color: #000915;
+    background-size: 806px 515px;
     background-position: -160px;
+    padding-top: 51px;
+    padding-bottom: 487px;
   }
   .riddle__title {
     font-size: 32px;
