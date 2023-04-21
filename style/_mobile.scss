@@ -17,14 +17,12 @@
         }
 
         &__title {
-            font-weight: 700;
             font-size: 32px;
             line-height: 39px;
             text-align: center;
         }
         &__text {
             width: 343px;
-            font-weight: 300;
             font-size: 14px;
             line-height: 22px;
             text-align: center;
@@ -38,6 +36,14 @@
     }
 
     .seasons {
+        padding-top: 51px;
+        padding-bottom: 85px;
+
+        &__content {
+            display: flex;
+            align-items: center;
+            padding-bottom: 64px;
+        }
         &__title {
             font-size: 32px;
             line-height: 39px;
@@ -51,19 +57,33 @@
     }
 
     .remember {
+        display:flex;
+        flex-direction: column-reverse; 
+        padding-top: 51px;
+        padding-bottom: 90px;
+
+        &__content {
+            display: flex;
+            align-items: center;
+            padding-bottom: 64px;
+        }
         &__title {
             font-size: 32px;
             line-height: 39px;
         }
         &__text {
+            width: 343px;
+            text-align: center;
             font-size: 14px;
             line-height: 22px;
         }
     }
 
     .riddle {
-        background-size: 800px 735px;
+        background-size: 806px 515px;
         background-position: -160px;
+        padding-top: 51px;
+        padding-bottom: 487px;
 
         &__title {
             font-size: 32px;

@@ -11,6 +11,7 @@ a {
 body {
   font-family: "Montserrat", sans-serif;
   color: #FFFFFF;
+  background: #000915;
 }
 
 .center {
@@ -30,7 +31,6 @@ body {
 .top__title {
   width: 789px;
   font-style: normal;
-  font-weight: 700;
   font-size: 64px;
   line-height: 78px;
   margin-bottom: 32px;
@@ -39,7 +39,6 @@ body {
 
 .top__text {
   width: 481px;
-  font-weight: 300;
   font-size: 18px;
   line-height: 32px;
   color: #FFFFFF;
@@ -52,7 +51,6 @@ body {
   background: #9C0332;
   border-radius: 30px;
   border: none;
-  font-weight: 400;
   font-size: 18px;
   line-height: 22px;
   align-items: center;
@@ -72,7 +70,6 @@ body {
   justify-content: center;
   flex-wrap: wrap;
   gap: 32px;
-  background: #000915;
 }
 
 .box__game {
@@ -82,7 +79,6 @@ body {
   border-radius: 22px;
   width: 379px;
   height: 300px;
-  font-weight: 600;
   font-size: 24px;
   line-height: 32px;
   color: #FFFFFF;
@@ -107,10 +103,6 @@ body {
   background-position: center;
 }
 
-.games {
-  background: #000915;
-}
-
 .seasons {
   padding-top: 233px;
   padding-bottom: 233px;
@@ -125,14 +117,12 @@ body {
   gap: 32px;
 }
 .seasons__title {
-  font-weight: 700;
   font-size: 48px;
   line-height: 59px;
   color: #FFFFFF;
 }
 .seasons__text {
   width: 584px;
-  font-weight: 300;
   font-size: 18px;
   line-height: 32px;
   color: #FFFFFF;
@@ -152,14 +142,12 @@ body {
   gap: 32px;
 }
 .remember__title {
-  font-weight: 700;
   font-size: 48px;
   line-height: 59px;
   color: #FFFFFF;
 }
 .remember__text {
   width: 584px;
-  font-weight: 300;
   font-size: 18px;
   line-height: 32px;
   color: #FFFFFF;
@@ -181,12 +169,10 @@ body {
   color: #FFFFFF;
 }
 .riddle__title {
-  font-weight: 700;
   font-size: 48px;
   line-height: 59px;
 }
 .riddle__text {
-  font-weight: 300;
   font-size: 18px;
   line-height: 32px;
   display: flex;
@@ -195,7 +181,6 @@ body {
 }
 
 .footer {
-  background: #000915;
   border-top: 1px solid rgba(184, 212, 255, 0.2);
   display: flex;
   height: 80px;
@@ -203,7 +188,6 @@ body {
   justify-content: center;
 }
 .footer__text {
-  font-weight: 400;
   font-size: 12px;
   line-height: 15px;
 }
@@ -224,14 +208,12 @@ body {
     align-items: center;
   }
   .top__title {
-    font-weight: 700;
     font-size: 32px;
     line-height: 39px;
     text-align: center;
   }
   .top__text {
     width: 343px;
-    font-weight: 300;
     font-size: 14px;
     line-height: 22px;
     text-align: center;
@@ -240,6 +222,15 @@ body {
   .games__img {
     width: 344px;
     height: 236px;
+  }
+  .seasons {
+    padding-top: 51px;
+    padding-bottom: 85px;
+  }
+  .seasons__content {
+    display: flex;
+    align-items: center;
+    padding-bottom: 64px;
   }
   .seasons__title {
     font-size: 32px;
@@ -251,17 +242,32 @@ body {
     font-size: 14px;
     line-height: 22px;
   }
+  .remember {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-top: 51px;
+    padding-bottom: 90px;
+  }
+  .remember__content {
+    display: flex;
+    align-items: center;
+    padding-bottom: 64px;
+  }
   .remember__title {
     font-size: 32px;
     line-height: 39px;
   }
   .remember__text {
+    width: 343px;
+    text-align: center;
     font-size: 14px;
     line-height: 22px;
   }
   .riddle {
-    background-size: 800px 735px;
+    background-size: 806px 515px;
     background-position: -160px;
+    padding-top: 51px;
+    padding-bottom: 487px;
   }
   .riddle__title {
     font-size: 32px;

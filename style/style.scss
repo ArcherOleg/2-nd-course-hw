@@ -11,6 +11,7 @@
   body {
     font-family: "Montserrat", sans-serif; 
     color: #FFFFFF;
+    background: #000915;
   }
   
   .center {
@@ -30,7 +31,6 @@
   .top__title {
     width: 789px;
     font-style: normal;
-    font-weight: 700;
     font-size: 64px;
     line-height: 78px;
     margin-bottom: 32px;
@@ -39,7 +39,6 @@
   
   .top__text {
     width: 481px;
-    font-weight: 300;
     font-size: 18px;
     line-height: 32px;
     color: #FFFFFF;
@@ -52,7 +51,6 @@
     background: #9C0332;
     border-radius: 30px;
     border: none;
-    font-weight: 400;
     font-size: 18px;
     line-height: 22px;
     align-items: center;
@@ -72,7 +70,6 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 32px;
-    background: #000915;
   }
   
   .box__game {
@@ -82,7 +79,6 @@
     border-radius: 22px;
     width: 379px;
     height: 300px;
-    font-weight: 600;
     font-size: 24px;
     line-height: 32px;
     color: #FFFFFF;
@@ -107,10 +103,6 @@
     background-position: center;
   }
   
-  .games {
-    background: #000915;
-  }
-  
   .seasons {
     padding-top: 233px;
     padding-bottom: 233px;
@@ -125,7 +117,6 @@
     }
 
     &__title {
-        font-weight: 700;
         font-size: 48px;
         line-height: 59px;
         color: #FFFFFF;
@@ -133,7 +124,6 @@
 
     &__text {
         width: 584px;
-        font-weight: 300;
         font-size: 18px;
         line-height: 32px;
         color: #FFFFFF;
@@ -154,7 +144,6 @@
     }
 
     &__title {
-        font-weight: 700;
         font-size: 48px;
         line-height: 59px;
         color: #FFFFFF;
@@ -162,7 +151,6 @@
 
     &__text {
         width: 584px;
-        font-weight: 300;
         font-size: 18px;
         line-height: 32px;
         color: #FFFFFF;
@@ -187,13 +175,11 @@
     }   
 
     &__title {
-        font-weight: 700;
         font-size: 48px;
         line-height: 59px;
     }
 
     &__text {
-        font-weight: 300;
         font-size: 18px;
         line-height: 32px;
         display: flex;
@@ -203,7 +189,6 @@
 }
 
 .footer {
-    background: #000915;
     border-top: 1px solid rgba(184, 212, 255, 0.2);
     display: flex;
     height: 80px;
@@ -211,7 +196,6 @@
     justify-content: center;
 
     &__text {
-        font-weight: 400;
         font-size: 12px;
         line-height: 15px;
     }
