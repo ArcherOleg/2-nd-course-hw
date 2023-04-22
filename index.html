@@ -17,7 +17,7 @@
             <p class="top__text">Вам предстоит пройти несколько увлекательных игр. Если готов нажимай
                 <b>поехали</b> и <b>приступай</b>
             </p>
-            <button type="button" style="color: white;" class="top__button button">Поехали!</button>
+            <button type="button" class="top__button button">Поехали!</button>
         </div>
     </div>
     <div class="box center">
@@ -27,34 +27,36 @@
     </div>
     <div class="games center">
         <div class="games__block seasons">
-            <div class="games__content">
-                <h3 class="games__title">Времена года</h3>
-                <p class="games__text">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому времени году он относится</p>
-                <button class="games__button button">Играть</button>
+            <div class="seasons__content">
+                <h3 class="seasons__title">Времена года</h3>
+                <p class="seasons__text">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому времени году он относится</p>
+                <button onclick="FirstGame()" class="seasons__button button">Играть</button>
             </div>
-            <img src="./img/hp/gameBox1.png" alt="img_seasons">
+            <img class="games__img" src="./img/hp/gameBox1.svg" alt="img_seasons">
         </div>
         <div class="games__block remember">
-            <img src="./img/hp/gameBox2.png" alt="img-remeber">
-            <div class="games__content">
-                <h3 class="games__title">Запомни слова</h3>
-                <p class="games__text">При нажатии на кнопку играть, вы увидите несколько слов, которые вам необходимо
+            <img class="games__img" src="./img/hp/gameBox2.svg" alt="img-remeber">
+            <div class="remember__content">
+                <h3 class="remember__title">Запомни слова</h3>
+                <p class="remember__text">При нажатии на кнопку играть, вы увидите несколько слов, которые вам необходимо
                 запомнить.</p>
-                <button class="games__button button">Играть</button>
+                <button class="remember__button button">Играть</button>
             </div>
         </div>
     </div>
-        <div class="games__block games__riddle">
-            <div class="games__content games__riddle_center">
-                <h3 class="games__title">Игра в загадки</h3>
-                <p class="games__text_center">Компьютер загадывает загадку, вам необходимо ее угадать, если вы дадите не
-                    правильный ответ, то компьютер даст вам <br> подсказку. У вас будет три попытки и две подсказки.</p>
-                <button class="games__button button">Играть</button>
-            </div>
+    <div class="riddle center">
+        <div class="riddle__content ">
+            <h3 class="riddle__title">Игра в загадки</h3>
+            <p class="riddle__text">Компьютер загадывает загадку, вам необходимо ее угадать, если вы дадите не
+                правильный ответ, то компьютер даст вам подсказку. У вас будет три попытки и две подсказки.</p>
+            <button class="riddle__button button">Играть</button>
         </div>
-    
-    <footer class="footer">
-        Все права защищены
+
+    </div>
+    <footer class="footer center">
+        <p class="footer__text">Все права защищены</p>  
     </footer>
+    <script src="./index.js">
+    </script>
 </body>
 </html>
