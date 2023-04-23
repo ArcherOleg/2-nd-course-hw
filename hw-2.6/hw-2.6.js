@@ -8,6 +8,7 @@ for (let i = 0; i < number.length; i++) {
 }
 
 // Задание 2
+
 //1
 const array = [1, 5, 4, 10, 0, 3];
 
@@ -17,17 +18,17 @@ console.log(position);
 
 //2
 
-const arr = [1, 5, 4, 10, 0, 3]; 
+// const arr = [1, 5, 4, 10, 0, 3]; 
 
-    for (let elem of arr) { 
-    if (arr[elem] === 5){ 
-    console.log(elem);
-    }
-}
+//     for (let elem of arr) { 
+//     if (arr[elem] === 4){  // ищет все индексы кроме 2го
+//     console.log(elem);
+//     }
+// }
 
 //Задание 3
 
-let numbs = [1, 3, 5, 10, 20];
+const numbs = [1, 3, 5, 10, 20];
 
 numbs = numbs.join(' ');
 
@@ -50,7 +51,7 @@ console.log(arr);
 
 //Задание 5
 
-let num = [1, 1, 1];
+const num = [1, 1, 1];
 
 num.push(2,2,2);
 
@@ -58,7 +59,7 @@ console.log(num);
 
 //Задание 6
 
-let arrNumber = [9, 8, 7, 'a', 6, 5];
+const arrNumber = [9, 8, 7, 'a', 6, 5];
 
 arrNumber = arrNumber.sort();
 console.log(arrNumber.pop()); 
@@ -66,11 +67,11 @@ console.log(arrNumber);
 
 //Задание 7
 
-const arr = [9, 8, 7, 6, 5];
+const arrSearch = [9, 8, 7, 6, 5];
 
-let userNumber = Number(prompt('Введите число 1 от 10'));
+let userNumber = +prompt('Введите число 1 от 10');
 
-if(arr.includes(userNumber)){
+if(arrSearch.includes(userNumber)){
     alert('Данное число входит в массив');
 } else if(isNaN(userNumber)){
     alert('Вы ввели не число');
@@ -86,7 +87,7 @@ console.log([...word].reverse().join(''));
 
 //Задание 9
 
-let array = [[1, 2, 3,],[4, 5, 6]];
+const array = [[1, 2, 3,],[4, 5, 6]];
 
 console.log(array.flat());
 
@@ -105,4 +106,37 @@ const array = [2, 5, 3, 4, 7];
 const square = elem.map(el => el ** 2);
 
 console.log(square);
+
+//Задание 12
+
+function getLengthWords(words) {
+    let arr = [];
+    for (let i = 0; i < words.length; i++) {
+    const wordLength = words[i].length;
+    arr.push(wordLength);
+    }
+    return arr;
+    }
+let words = (['слово', '', 'слог', 'длинное предложение', 'буква']);
+let wordsLength = getLengthWords(words)
+console.log (wordsLength)
+
+//Задание 13
+
+function getNegativeValues(numbers) {
+    const result = [];
+
+    for (let i = 0; i < numbers.length; i++) {
+    if (numbers[i] < 0) {
+    result.push(numbers[i]);
+    }
+    }
+    return result;
+    }
+
+    let numbers = [2, -5, 8, -10, 6, -3];
+
+    let negativeNumbers = getNegativeValues(numbers);
+
+    console.log(negativeNumbers)
 
