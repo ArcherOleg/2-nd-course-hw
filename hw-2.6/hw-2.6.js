@@ -69,7 +69,7 @@ console.log(arrNumber);
 
 const arrSearch = [9, 8, 7, 6, 5];
 
-let userNumber = +prompt('Введите число 1 от 10');
+let userNumber = Number(prompt('Введите число 1 от 10'));
 
 if(arrSearch.includes(userNumber)){
     alert('Данное число входит в массив');
