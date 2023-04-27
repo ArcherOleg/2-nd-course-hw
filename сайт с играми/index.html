@@ -22,7 +22,7 @@
     </div>
     <div class="box center">
         <a href="#" onclick="SeasonsGame()" class="box__game box__game1">Игра 1</a>
-        <a href="#" class="box__game box__game2">Игра 2</a>
+        <a href="#" onclick="rmbWord()" class="box__game box__game2">Игра 2</a>
         <a href="#" class="box__game box__game3">Игра 3</a>
     </div>
     <div class="games center">
@@ -40,7 +40,7 @@
                 <h3 class="remember__title">Запомни слова</h3>
                 <p class="remember__text">При нажатии на кнопку играть, вы увидите несколько слов, которые вам необходимо
                 запомнить.</p>
-                <button class="remember__button button">Играть</button>
+                <button onclick="rmbWord()" class="remember__button button">Играть</button>
             </div>
         </div>
     </div>
@@ -57,6 +57,8 @@
         <p class="footer__text">Все права защищены</p>  
     </footer>
     <script src="./seasons.js">
+    </script>
+    <script src="./remember.js">
     </script>
 </body>
 </html>
