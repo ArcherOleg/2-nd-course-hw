@@ -16,7 +16,7 @@ const Season = (a) => {
     }
   }
   
-  const FirstGame = () => {
+  const SeasonsGame = () => {
     alert ('Поехали!');
     let monthNumber = Number(prompt('Введите номер месяца.'));
     alert(Season(monthNumber));
