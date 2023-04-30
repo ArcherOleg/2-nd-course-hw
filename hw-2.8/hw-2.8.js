@@ -73,7 +73,6 @@ function delayForSecond(callback) {
 
 //Задание 5
 
-
 function delayForSecond(cb) {
     setTimeout(() => {
       console.log('Прошла одна секунда');
