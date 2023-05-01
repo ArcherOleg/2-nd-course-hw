@@ -11,43 +11,35 @@ const people = [
 
 //Задание 2
 
-function map(arr, ruleFunction) {
-    const result = [];
-    for (let i = 0; i < arr.length; i++) {
-    result.push(ruleFunction(arr[i]));
-    }
-    return result;
-    }
+function isPositive(a) {
+  return a >= 0;
+  }
+
+function isMale(people) {
+    return people.gender === 'male';
+  }
+
+function filter(arr, myFunction) {
+    const resultArr = [];
     
-    function filter(arr, ruleFunction) {
-    const mapResult = map(arr, ruleFunction);
-    const result = [];
-    for (let i = 0; i < arr.length; i++) {
-    if (mapResult[i]) {
-    result.push(arr[i]);
+    for (let i = 0; i < arr.length; i++){
+    if (myFunction(arr[i])) {
+      resultArr.push(arr[i]);
     }
-    }
-    return result;
-    }
-    
-    function isPositive(num) {
-    return num > 0;
-    }
-    
-    function isMale(person) {
-    return person.gender === 'male';
-    }
-    
-    console.log(filter([3, -4, 1, 9], isPositive));
-    
-    const people = [
-    {name: 'Глеб', gender: 'male'},
-    {name: 'Анна', gender: 'female'},
-    {name: 'Олег', gender: 'male'},
-    {name: 'Оксана', gender: 'female'}
-    ];
-    
-    console.log(filter(people, isMale));
+  }
+  return resultArr;
+  }
+  
+console.log(filter([3, -4, 1, 9], isPositive));
+  
+const people = [
+     {name: 'Глеб', gender: 'male'},
+     {name: 'Анна', gender: 'female'},
+     {name: 'Олег', gender: 'male'},
+     {name: 'Оксана', gender: 'female'}
+  ];
+  
+  console.log(filter(people, isMale));
 
 //Задание 3
 
