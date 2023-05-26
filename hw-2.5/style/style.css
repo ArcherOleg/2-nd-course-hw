@@ -1,0 +1,279 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #FFFFFF;
+  background: #000915;
+}
+
+.center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+
+.top {
+  height: 1024px;
+  background-image: url(../img/hp/top.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 217px;
+}
+
+.top__title {
+  font-style: normal;
+  font-size: 64px;
+  line-height: 78px;
+  margin-bottom: 32px;
+  color: #FFFFFF;
+}
+
+.top__text {
+  width: 481px;
+  font-size: 18px;
+  line-height: 32px;
+  color: #FFFFFF;
+  margin-bottom: 44px;
+}
+
+.button {
+  width: 234px;
+  height: 48px;
+  background: #9C0332;
+  border-radius: 30px;
+  border: none;
+  font-size: 18px;
+  line-height: 22px;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  transition: all 0.3s;
+  color: #FFFFFF;
+}
+
+.button:hover {
+  background: #EB443F;
+}
+
+.box {
+  display: flex;
+  padding: 128px 0;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.box__game {
+  display: flex;
+  align-items: flex-end;
+  padding: 32px;
+  border-radius: 22px;
+  width: 379px;
+  height: 300px;
+  font-size: 24px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+
+.box__game:hover {
+  border: 4px solid #44D2FF;
+}
+
+.box__game1 {
+  background-image: url(../img/hp/game1.jpg);
+  background-position: center;
+}
+
+.box__game2 {
+  background-image: url(../img/hp/game2.jpg);
+  background-position: center;
+}
+
+.box__game3 {
+  background-image: url(../img/hp/game3.jpg);
+  background-position: center;
+}
+
+.seasons {
+  padding-top: 233px;
+  padding-bottom: 233px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.seasons__content {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.seasons__title {
+  font-size: 48px;
+  line-height: 59px;
+  color: #FFFFFF;
+}
+.seasons__text {
+  width: 584px;
+  font-size: 18px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+
+.remember {
+  padding-top: 233px;
+  padding-bottom: 233px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.remember__content {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.remember__title {
+  font-size: 48px;
+  line-height: 59px;
+  color: #FFFFFF;
+}
+.remember__text {
+  width: 584px;
+  font-size: 18px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+
+.riddle {
+  background-image: url(../img/hp/bgGame3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 276px;
+  padding-bottom: 288px;
+}
+.riddle__content {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+  flex-direction: column;
+  color: #FFFFFF;
+}
+.riddle__title {
+  font-size: 48px;
+  line-height: 59px;
+}
+.riddle__text {
+  font-size: 18px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.footer {
+  border-top: 1px solid rgba(184, 212, 255, 0.2);
+  display: flex;
+  height: 80px;
+  align-items: center;
+  justify-content: center;
+}
+.footer__text {
+  font-size: 12px;
+  line-height: 15px;
+}
+
+@media (max-width: 767px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .top {
+    height: 735px;
+    padding-top: 238px;
+    background-image: url(../img/hp/topM.jpg);
+  }
+  .top__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .top__title {
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+  }
+  .top__text {
+    width: 343px;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    margin-bottom: 32px;
+  }
+  .games__img {
+    width: 344px;
+    height: 236px;
+  }
+  .seasons {
+    padding-top: 51px;
+    padding-bottom: 85px;
+  }
+  .seasons__content {
+    display: flex;
+    align-items: center;
+    padding-bottom: 64px;
+  }
+  .seasons__title {
+    font-size: 32px;
+    line-height: 39px;
+  }
+  .seasons__text {
+    width: 343px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .remember {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-top: 51px;
+    padding-bottom: 90px;
+  }
+  .remember__content {
+    display: flex;
+    align-items: center;
+    padding-bottom: 64px;
+  }
+  .remember__title {
+    font-size: 32px;
+    line-height: 39px;
+  }
+  .remember__text {
+    width: 343px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .riddle {
+    background-size: 806px 515px;
+    background-position: -160px;
+    padding-top: 51px;
+    padding-bottom: 487px;
+  }
+  .riddle__title {
+    font-size: 32px;
+    line-height: 39px;
+  }
+  .riddle__text {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}/*# sourceMappingURL=style.css.map */

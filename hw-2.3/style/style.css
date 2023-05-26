@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Montserrat", sans-serif; 
+  color: #FFFFFF;
+}
+
+.center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+
+.top {
+  height: 1024px;
+  background-image: url(../img/hp/top.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 217px;
+}
+.top__title {
+  width: 789px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 78px;
+  margin-bottom: 32px;
+  color: #FFFFFF;
+}
+.top__text {
+  width: 481px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  color: #FFFFFF;
+  margin-bottom: 44px;
+}
+
+.button {
+  width: 234px;
+  height: 48px;
+  background: #9C0332;
+  border-radius: 30px;
+  border: none;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  transition: all 0.3s;
+}
+.button:hover {
+  background: #EB443F;
+}
+
+.box {
+  display: flex;
+  padding: 128px 0;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 32px;
+  background: #000915;
+}
+.box__game {
+  display: flex;
+  align-items: flex-end;
+  padding: 32px;
+  border-radius: 16px;
+  width: 379px;
+  height: 300px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #FFFFFF;
+  transition: all 0.5s;
+}
+.box__game:hover {
+  border: 4px solid #7136fa;
+  border-radius: 20px;
+}
+
+.box__game1 {
+  background-image: url(../img/hp/game1.jpg);
+  background-position: center;
+}
+
+.box__game2 {
+  background-image: url(../img/hp/game2.jpg);
+  background-position: center;
+}
+
+.box__game3 {
+  background-image: url(../img/hp/game3.jpg);
+  background-position: center;
+}
+
+@media (max-width: 1279px) {
+  .center {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .top {
+    background-position: center;
+  }
+}
+@media (max-width: 767px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .top {
+    height: 735px;
+    padding-top: 238px;
+    background-image: url(../img/hp/topM.jpg);
+  }
+  .top__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .top__title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+  }
+  .top__text {
+    width: 343px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    margin-bottom: 32px;
+  }
+}/*# sourceMappingURL=style.css.map */
