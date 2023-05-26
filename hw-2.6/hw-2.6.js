@@ -1,69 +1,69 @@
-//Задание 1
+// //Задание 1
 
-const number = [1, 5, 4, 10, 0, 3];
+// const number = [1, 5, 4, 10, 0, 3];
 
-for (let i = 0; i < number.length; i++) {
-    if (number[i] == 0)break;
-    console.log(number[i]);
-}
-
-// Задание 2
-
-//1
-const array = [1, 5, 4, 10, 0, 3];
-
-const position = array.indexOf(4);
-
-console.log(position);
-
-//2
-
-// const arr = [1, 5, 4, 10, 0, 3]; 
-
-//     for (let elem of arr) { 
-//     if (arr[elem] === 4){  // ищет все индексы кроме 2го
-//     console.log(elem);
-//     }
+// for (let i = 0; i < number.length; i++) {
+//     if (number[i] == 0)break;
+//     console.log(number[i]);
 // }
 
-//Задание 3
+// // Задание 2
 
-const numbs = [1, 3, 5, 10, 20];
+// //1
+// const array = [1, 5, 4, 10, 0, 3];
 
-numbs = numbs.join(' ');
+// const position = array.indexOf(4);
 
-console.log(numbs);
+// console.log(position);
 
-//Задание 4
+// //2
 
-let arr = [];
+// // const arr = [1, 5, 4, 10, 0, 3]; 
 
-for (let i = 0; i < 3; i++) { 
-let subArr = [];
+// //     for (let elem of arr) { 
+// //     if (arr[elem] === 4){  // ищет все индексы кроме 2го
+// //     console.log(elem);
+// //     }
+// // }
 
-for (let j = 0; j < 3; j++) {
-    subArr.push(1);
-}
-arr.push(subArr); 
-}
+// //Задание 3
 
-console.log(arr);
+// const numbs = [1, 3, 5, 10, 20];
 
-//Задание 5
+// numbs = numbs.join(' ');
 
-const num = [1, 1, 1];
+// console.log(numbs);
 
-num.push(2,2,2);
+// //Задание 4
 
-console.log(num);
+// let arr = [];
 
-//Задание 6
+// for (let i = 0; i < 3; i++) { 
+// let subArr = [];
 
-const arrNumber = [9, 8, 7, 'a', 6, 5];
+// for (let j = 0; j < 3; j++) {
+//     subArr.push(1);
+// }
+// arr.push(subArr); 
+// }
 
-arrNumber = arrNumber.sort();
-console.log(arrNumber.pop()); 
-console.log(arrNumber);
+// console.log(arr);
+
+// //Задание 5
+
+// const num = [1, 1, 1];
+
+// num.push(2,2,2);
+
+// console.log(num);
+
+// //Задание 6
+
+// const arrNumber = [9, 8, 7, 'a', 6, 5];
+
+// arrNumber = arrNumber.sort();
+// console.log(arrNumber.pop()); 
+// console.log(arrNumber);
 
 //Задание 7
 
@@ -79,64 +79,64 @@ if(arrSearch.includes(userNumber)){
     alert('Данное число не входит в массив');
 }
 
-//Задание 8
+// //Задание 8
 
-let word = 'abcdef';
+// let word = 'abcdef';
 
-console.log([...word].reverse().join(''));
+// console.log([...word].reverse().join(''));
 
-//Задание 9
+// //Задание 9
 
-const array = [[1, 2, 3,],[4, 5, 6]];
+// const array = [[1, 2, 3,],[4, 5, 6]];
 
-console.log(array.flat());
+// console.log(array.flat());
 
-//Задание 10
+// //Задание 10
 
-const arr = [1, 2, 3, 4, 5];
+// const arr = [1, 2, 3, 4, 5];
 
-for(let i = 0; i < arr.length - 1; i++){
-    console.log(arr[i] + arr[i + 1]);
-}
+// for(let i = 0; i < arr.length - 1; i++){
+//     console.log(arr[i] + arr[i + 1]);
+// }
 
-//Задание 11
+// //Задание 11
 
-const array = [2, 5, 3, 4, 7];
+// const array = [2, 5, 3, 4, 7];
 
-const square = elem.map(el => el ** 2);
+// const square = elem.map(el => el ** 2);
 
-console.log(square);
+// console.log(square);
 
-//Задание 12
+// //Задание 12
 
-function getLengthWords(words) {
-    let arr = [];
-    for (let i = 0; i < words.length; i++) {
-    const wordLength = words[i].length;
-    arr.push(wordLength);
-    }
-    return arr;
-    }
-let words = (['слово', '', 'слог', 'длинное предложение', 'буква']);
-let wordsLength = getLengthWords(words)
-console.log (wordsLength)
+// function getLengthWords(words) {
+//     let arr = [];
+//     for (let i = 0; i < words.length; i++) {
+//     const wordLength = words[i].length;
+//     arr.push(wordLength);
+//     }
+//     return arr;
+//     }
+// let words = (['слово', '', 'слог', 'длинное предложение', 'буква']);
+// let wordsLength = getLengthWords(words)
+// console.log (wordsLength)
 
-//Задание 13
+// //Задание 13
 
-function getNegativeValues(numbers) {
-    const result = [];
+// function getNegativeValues(numbers) {
+//     const result = [];
 
-    for (let i = 0; i < numbers.length; i++) {
-    if (numbers[i] < 0) {
-    result.push(numbers[i]);
-    }
-    }
-    return result;
-    }
+//     for (let i = 0; i < numbers.length; i++) {
+//     if (numbers[i] < 0) {
+//     result.push(numbers[i]);
+//     }
+//     }
+//     return result;
+//     }
 
-    let numbers = [2, -5, 8, -10, 6, -3];
+//     let numbers = [2, -5, 8, -10, 6, -3];
 
-    let negativeNumbers = getNegativeValues(numbers);
+//     let negativeNumbers = getNegativeValues(numbers);
 
-    console.log(negativeNumbers)
+//     console.log(negativeNumbers)
 
